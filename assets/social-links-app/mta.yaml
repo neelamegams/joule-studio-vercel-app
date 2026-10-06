@@ -1,0 +1,20 @@
+_schema-version: "3.3"
+ID: v0-ksmrwtep
+version: 1.0.0
+description: Generated app — v0-ksmrwtep
+
+modules:
+  - name: v0-ksmrwtep
+    type: html5
+    path: .
+    parameters:
+      memory: 256M
+      disk-quota: 512M
+      buildpacks:
+        - nodejs_buildpack
+    build-parameters:
+      builder: npm
+      build-result: .
+      ignore:
+        - node_modules/
+        - .env

@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0,
+    "score": 100,
+    "timestamp": 1791273539645,
+    "timestampIso": "2026-10-06T07:58:59.645Z",
+    "coverage": 100
+  },
+  "sections": [
+    {
+      "name": "Vercel Tests",
+      "marker": "vercel_tests",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100,
+      "tests": [
+        {
+          "name": "profile has the expected name and tagline",
+          "outcome": "passed",
+          "duration": 0.0025
+        },
+        {
+          "name": "config contains exactly the three required links in order",
+          "outcome": "passed",
+          "duration": 0.0018
+        },
+        {
+          "name": "each link points to the required URL",
+          "outcome": "passed",
+          "duration": 0.0003
+        },
+        {
+          "name": "each link uses its brand color",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "all configured URLs and colors are valid",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "link ids are unique",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "isValidUrl accepts http(s) and rejects everything else",
+          "outcome": "passed",
+          "duration": 0.0006
+        },
+        {
+          "name": "isHexColor validates 6-digit hex values only",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "getLinkById returns undefined for unknown ids and supports custom lists",
+          "outcome": "passed",
+          "duration": 0.0007
+        }
+      ]
+    }
+  ]
+}

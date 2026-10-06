@@ -1,0 +1,23 @@
+apiVersion: asset.sap/v1
+kind: Asset
+
+metadata:
+  name: social-links-app
+  version: 1.0.0
+  description: React + SAP UI5 Web Components social links landing page.
+
+type: application
+
+sourceRoot: "."
+
+provides:
+  ui:
+    framework: react
+    routes:
+      - /
+
+custom:
+  vercel:
+    framework: vite
+    buildCommand: npm run build
+    outputDirectory: dist

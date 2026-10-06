@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: social-links-app-441a8
+  version: 1.0.0
+  description: Personal social links landing page with buttons to LinkedIn, Twitter, and SAP Community.
+
+assets:
+  - ref: ./assets/social-links-app/asset.yaml
